@@ -1,1 +1,3 @@
-# chippewa
+# Chippewa
+
+Instructions
