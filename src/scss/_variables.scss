@@ -1,7 +1,7 @@
 // Colors
 // -------------------------------------------------------------------
 // Grayscale
-$gray-base:               #87919d !default;
+$gray-base:               #707070 !default;
 
 $black:                   #000 !default;
 $darkest-gray:            darken($gray-base, 36%) !default;
@@ -30,15 +30,14 @@ $baseline:                .4rem !default;
 // Typography
 // -------------------------------------------------------------------
 // Font families
-$sans-serif:              Avenir, "Avenir Next", Trebuchet, Verdana,
-                          sans-serif !default;
+$sans-serif:              Karla, Verdana, sans-serif !default;
 $serif:                   Georgia, Times, serif !default;
 $monospace:               Monaco, Menlo, Consolas,
                           monospace !default;
 
 $font-family--base:       $sans-serif !default;
 $font-family--heading:    $sans-serif !default;
-$font-family--reading:    $serif !default;
+$font-family--reading:    $sans-serif !default;
 $font-family--ui:         $sans-serif !default;
 $font-family--code:       $monospace !default;
 
@@ -61,11 +60,11 @@ $h5--desktop:             .75rem !default;
 $h6--desktop:             .75rem !default;
 
 // Text color
-$text-color:              $dark-gray !default;
+$text-color:              $darkest-gray !default;
 
 // Text sizes
-$font-size--mobile:       14px !default;
-$font-size--desktop:      15px !default;
+$font-size--mobile:       18px !default;
+$font-size--desktop:      23px !default;
 $font-size--lg:           $h3 !default;
 $font-size--sm:           $h5 !default;
 
@@ -87,7 +86,7 @@ $breakpoint--md:          50em !default;
 $breakpoint--lg:          60em !default;
 
 // Max container width
-$max-container-width:     45em !default;
+$max-container-width:     900px !default;
 
 
 // Spaces
@@ -123,10 +122,10 @@ $form-padding:            .45rem .8rem .35rem !default;
 
 // Borders
 // -------------------------------------------------------------------
-$border-color:            $light-gray !default;
+$border-color:            $dark-gray !default;
 $border-style:            solid !default;
-$border-radius:           3px !default;
-$border-width:            1px !default;
+$border-radius:           0px !default;
+$border-width:            2px !default;
 
 
 // Animations
