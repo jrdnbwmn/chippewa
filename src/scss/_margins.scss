@@ -30,6 +30,13 @@
 .mb4 { margin-bottom: $space-4 }
 .ml4 { margin-left: $space-4 }
 
+.mobile-m {
+    @media screen and (max-width: $breakpoint--sm) {
+        margin-top: $space-1;
+        margin-bottom: $space-1;
+    }
+}
+
 // Same bottom margin as body text
 .p-mb  { margin-bottom: $p-mb; }
 
